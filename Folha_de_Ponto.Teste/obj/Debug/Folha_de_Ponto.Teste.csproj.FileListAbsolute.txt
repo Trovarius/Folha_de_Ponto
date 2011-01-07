@@ -1,0 +1,7 @@
+c:\users\tordek\documents\visual studio 2010\Projects\Folha_de_Ponto\Folha_de_Ponto.Teste\obj\Debug\ResolveAssemblyReference.cache
+c:\users\tordek\documents\visual studio 2010\Projects\Folha_de_Ponto\Folha_de_Ponto.Teste\bin\Debug\Folha_de_Ponto.Teste.dll
+c:\users\tordek\documents\visual studio 2010\Projects\Folha_de_Ponto\Folha_de_Ponto.Teste\bin\Debug\Folha_de_Ponto.Teste.pdb
+c:\users\tordek\documents\visual studio 2010\Projects\Folha_de_Ponto\Folha_de_Ponto.Teste\bin\Debug\Folha_de_Ponto.Dominio.dll
+c:\users\tordek\documents\visual studio 2010\Projects\Folha_de_Ponto\Folha_de_Ponto.Teste\bin\Debug\Folha_de_Ponto.Dominio.pdb
+c:\users\tordek\documents\visual studio 2010\Projects\Folha_de_Ponto\Folha_de_Ponto.Teste\obj\Debug\Folha_de_Ponto.Teste.dll
+c:\users\tordek\documents\visual studio 2010\Projects\Folha_de_Ponto\Folha_de_Ponto.Teste\obj\Debug\Folha_de_Ponto.Teste.pdb
