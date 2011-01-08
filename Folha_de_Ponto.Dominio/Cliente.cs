@@ -7,7 +7,19 @@ namespace Folha_de_Ponto.Dominio
 {
     public class Cliente
     {
-        public String Nome;
+        private String _nome;
+        public String Nome
+        {
+            get
+            {
+                return _nome;
+            }
+            set
+            {
+                if (String.IsNullOrEmpty(value)) throw new Exception("Nome do Cliente não pode ser vazio");
+                _nome = value;
+            }
+        }
 
         public Cliente(String nome_do_cliente)
         {
