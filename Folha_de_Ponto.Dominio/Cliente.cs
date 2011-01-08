@@ -7,6 +7,18 @@ namespace Folha_de_Ponto.Dominio
 {
     public class Cliente
     {
+        public String Telefone;
+        private String _telefone
+        {
+            get
+            {
+                return _telefone;
+            }
+            set 
+            {
+            
+            }
+        }
         private String _nome;
         public String Nome
         {

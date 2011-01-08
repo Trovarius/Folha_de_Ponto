@@ -25,5 +25,14 @@ namespace Folha_de_Ponto.Teste
             String nome_do_cliente = "";
             Cliente cliente = new Cliente(nome_do_cliente);
         }
+        [TestMethod]
+        public void posso_informar_telefone_do_cliente()
+        {
+            String telefone_do_cliente = "555555555555555555555555";
+            Cliente cliente = new Cliente("o");
+            cliente.Telefone = telefone_do_cliente;
+            Assert.AreEqual(telefone_do_cliente,cliente.Telefone);
+        }
+   
     }
 }
