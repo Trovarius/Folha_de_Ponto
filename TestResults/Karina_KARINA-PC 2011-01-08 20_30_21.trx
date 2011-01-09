@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e5bdbc47-6cdf-4091-8de0-8cb2e4c3c07b" name="Karina@KARINA-PC 2011-01-08 20:30:21" runUser="Karina-PC\Karina" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="7cfd8a5e-6f90-483e-897f-91d4db45673e">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Karina_KARINA-PC 2011-01-08 20_30_21">
+      <DeploymentItem filename="C:\Users\Karina\Documents\VisualStudio2010\Projects\Folha_de_Ponto\Folha_de_Ponto.Dominio\bin\Debug\Folha_de_Ponto.Dominio.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-01-08T20:30:21.7578877-02:00" queuing="2011-01-08T20:30:25.2184945-02:00" start="2011-01-08T20:30:25.5616951-02:00" finish="2011-01-08T20:30:26.8252974-02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" passed="2" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Telefone_do_Cliente_nao_Pode_ser_Vazio" storage="c:\users\karina\documents\visualstudio2010\projects\folha_de_ponto\folha_de_ponto.teste\bin\debug\folha_de_ponto.teste.dll" id="0f3bd5d9-5aa1-dbd5-6f2a-ac3681b16cd0">
+      <Execution id="5bb87588-a468-4973-b9f6-e19b9996ebf2" />
+      <TestMethod codeBase="C:/Users/Karina/Documents/VisualStudio2010/Projects/Folha_de_Ponto/Folha_de_Ponto.Teste/bin/Debug/Folha_de_Ponto.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Folha_de_Ponto.Teste.Dado_Um_Cliente, Folha_de_Ponto.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Telefone_do_Cliente_nao_Pode_ser_Vazio" />
+    </UnitTest>
+    <UnitTest name="nome_do_cliente_não_pode_ser_vazio" storage="c:\users\karina\documents\visualstudio2010\projects\folha_de_ponto\folha_de_ponto.teste\bin\debug\folha_de_ponto.teste.dll" id="272aedbe-ec3b-2d32-bbf8-2956aff68731">
+      <Execution id="373decfe-bb51-4150-893f-81b1190a6ddf" />
+      <TestMethod codeBase="C:/Users/Karina/Documents/VisualStudio2010/Projects/Folha_de_Ponto/Folha_de_Ponto.Teste/bin/Debug/Folha_de_Ponto.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Folha_de_Ponto.Teste.Dado_Um_Cliente, Folha_de_Ponto.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="nome_do_cliente_não_pode_ser_vazio" />
+    </UnitTest>
+    <UnitTest name="não_pode_criar_cliente_sem_nome" storage="c:\users\karina\documents\visualstudio2010\projects\folha_de_ponto\folha_de_ponto.teste\bin\debug\folha_de_ponto.teste.dll" id="0dd8cff1-e7a1-1c38-9b1e-7393ab85a36a">
+      <Execution id="bf27fd7a-aebd-4ce4-9ab2-daa02f01a13e" />
+      <TestMethod codeBase="C:/Users/Karina/Documents/VisualStudio2010/Projects/Folha_de_Ponto/Folha_de_Ponto.Teste/bin/Debug/Folha_de_Ponto.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Folha_de_Ponto.Teste.Dado_Um_Cliente, Folha_de_Ponto.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="não_pode_criar_cliente_sem_nome" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0dd8cff1-e7a1-1c38-9b1e-7393ab85a36a" executionId="bf27fd7a-aebd-4ce4-9ab2-daa02f01a13e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0f3bd5d9-5aa1-dbd5-6f2a-ac3681b16cd0" executionId="5bb87588-a468-4973-b9f6-e19b9996ebf2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="272aedbe-ec3b-2d32-bbf8-2956aff68731" executionId="373decfe-bb51-4150-893f-81b1190a6ddf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="bf27fd7a-aebd-4ce4-9ab2-daa02f01a13e" testId="0dd8cff1-e7a1-1c38-9b1e-7393ab85a36a" testName="não_pode_criar_cliente_sem_nome" computerName="KARINA-PC" duration="00:00:00.0666662" startTime="2011-01-08T20:30:25.7020954-02:00" endTime="2011-01-08T20:30:26.4976968-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf27fd7a-aebd-4ce4-9ab2-daa02f01a13e">
+    </UnitTestResult>
+    <UnitTestResult executionId="5bb87588-a468-4973-b9f6-e19b9996ebf2" testId="0f3bd5d9-5aa1-dbd5-6f2a-ac3681b16cd0" testName="Telefone_do_Cliente_nao_Pode_ser_Vazio" computerName="KARINA-PC" duration="00:00:00.1195371" startTime="2011-01-08T20:30:26.4976968-02:00" endTime="2011-01-08T20:30:26.6536971-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5bb87588-a468-4973-b9f6-e19b9996ebf2">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Folha_de_Ponto.Teste.Dado_Um_Cliente.Telefone_do_Cliente_nao_Pode_ser_Vazio threw exception: 
+System.Exception: Nome do Cliente não pode ser vazio</Message>
+          <StackTrace>    at Folha_de_Ponto.Dominio.Cliente.set_Nome(String value) in c:\users\tordek\documents\visual studio 2010\Projects\Folha_de_Ponto\Folha_de_Ponto.Dominio\Cliente.cs:line 19
+   at Folha_de_Ponto.Dominio.Cliente..ctor(String nome_do_cliente) in c:\users\tordek\documents\visual studio 2010\Projects\Folha_de_Ponto\Folha_de_Ponto.Dominio\Cliente.cs:line 26
+   at Folha_de_Ponto.Teste.Dado_Um_Cliente.Telefone_do_Cliente_nao_Pode_ser_Vazio() in C:\Users\Karina\Documents\VisualStudio2010\Projects\Folha_de_Ponto\Folha_de_Ponto.Teste\Dado_Um_Cliente.cs:line 32
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="373decfe-bb51-4150-893f-81b1190a6ddf" testId="272aedbe-ec3b-2d32-bbf8-2956aff68731" testName="nome_do_cliente_não_pode_ser_vazio" computerName="KARINA-PC" duration="00:00:00.0006005" startTime="2011-01-08T20:30:26.6692971-02:00" endTime="2011-01-08T20:30:26.7160972-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="373decfe-bb51-4150-893f-81b1190a6ddf">
+    </UnitTestResult>
+  </Results>
+</TestRun>

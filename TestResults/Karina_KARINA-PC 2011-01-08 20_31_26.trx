@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="65425604-4eba-4b86-98c6-7ff0d472dbef" name="Karina@KARINA-PC 2011-01-08 20:31:26" runUser="Karina-PC\Karina" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="7cfd8a5e-6f90-483e-897f-91d4db45673e">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Karina_KARINA-PC 2011-01-08 20_31_26">
+      <DeploymentItem filename="C:\Users\Karina\Documents\VisualStudio2010\Projects\Folha_de_Ponto\Folha_de_Ponto.Dominio\bin\Debug\Folha_de_Ponto.Dominio.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-01-08T20:31:26.7826114-02:00" queuing="2011-01-08T20:31:26.7982115-02:00" start="2011-01-08T20:31:26.8450115-02:00" finish="2011-01-08T20:31:27.2662123-02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Telefone_do_Cliente_nao_Pode_ser_Vazio" storage="c:\users\karina\documents\visualstudio2010\projects\folha_de_ponto\folha_de_ponto.teste\bin\debug\folha_de_ponto.teste.dll" id="0f3bd5d9-5aa1-dbd5-6f2a-ac3681b16cd0">
+      <Execution id="b7cdfd43-df10-4776-a335-0884e806bfbc" />
+      <TestMethod codeBase="C:/Users/Karina/Documents/VisualStudio2010/Projects/Folha_de_Ponto/Folha_de_Ponto.Teste/bin/Debug/Folha_de_Ponto.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Folha_de_Ponto.Teste.Dado_Um_Cliente, Folha_de_Ponto.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Telefone_do_Cliente_nao_Pode_ser_Vazio" />
+    </UnitTest>
+    <UnitTest name="nome_do_cliente_não_pode_ser_vazio" storage="c:\users\karina\documents\visualstudio2010\projects\folha_de_ponto\folha_de_ponto.teste\bin\debug\folha_de_ponto.teste.dll" id="272aedbe-ec3b-2d32-bbf8-2956aff68731">
+      <Execution id="e8ce3af3-d2f0-4407-998c-c72e7bd69715" />
+      <TestMethod codeBase="C:/Users/Karina/Documents/VisualStudio2010/Projects/Folha_de_Ponto/Folha_de_Ponto.Teste/bin/Debug/Folha_de_Ponto.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Folha_de_Ponto.Teste.Dado_Um_Cliente, Folha_de_Ponto.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="nome_do_cliente_não_pode_ser_vazio" />
+    </UnitTest>
+    <UnitTest name="não_pode_criar_cliente_sem_nome" storage="c:\users\karina\documents\visualstudio2010\projects\folha_de_ponto\folha_de_ponto.teste\bin\debug\folha_de_ponto.teste.dll" id="0dd8cff1-e7a1-1c38-9b1e-7393ab85a36a">
+      <Execution id="9f56ca31-4a31-4488-bf4e-7cada38b8809" />
+      <TestMethod codeBase="C:/Users/Karina/Documents/VisualStudio2010/Projects/Folha_de_Ponto/Folha_de_Ponto.Teste/bin/Debug/Folha_de_Ponto.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Folha_de_Ponto.Teste.Dado_Um_Cliente, Folha_de_Ponto.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="não_pode_criar_cliente_sem_nome" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0dd8cff1-e7a1-1c38-9b1e-7393ab85a36a" executionId="9f56ca31-4a31-4488-bf4e-7cada38b8809" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0f3bd5d9-5aa1-dbd5-6f2a-ac3681b16cd0" executionId="b7cdfd43-df10-4776-a335-0884e806bfbc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="272aedbe-ec3b-2d32-bbf8-2956aff68731" executionId="e8ce3af3-d2f0-4407-998c-c72e7bd69715" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9f56ca31-4a31-4488-bf4e-7cada38b8809" testId="0dd8cff1-e7a1-1c38-9b1e-7393ab85a36a" testName="não_pode_criar_cliente_sem_nome" computerName="KARINA-PC" duration="00:00:00.0197510" startTime="2011-01-08T20:31:26.8450115-02:00" endTime="2011-01-08T20:31:27.2194122-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f56ca31-4a31-4488-bf4e-7cada38b8809">
+    </UnitTestResult>
+    <UnitTestResult executionId="b7cdfd43-df10-4776-a335-0884e806bfbc" testId="0f3bd5d9-5aa1-dbd5-6f2a-ac3681b16cd0" testName="Telefone_do_Cliente_nao_Pode_ser_Vazio" computerName="KARINA-PC" duration="00:00:00.0031108" startTime="2011-01-08T20:31:27.2194122-02:00" endTime="2011-01-08T20:31:27.2194122-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b7cdfd43-df10-4776-a335-0884e806bfbc">
+    </UnitTestResult>
+    <UnitTestResult executionId="e8ce3af3-d2f0-4407-998c-c72e7bd69715" testId="272aedbe-ec3b-2d32-bbf8-2956aff68731" testName="nome_do_cliente_não_pode_ser_vazio" computerName="KARINA-PC" duration="00:00:00.0012337" startTime="2011-01-08T20:31:27.2350122-02:00" endTime="2011-01-08T20:31:27.2350122-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e8ce3af3-d2f0-4407-998c-c72e7bd69715">
+    </UnitTestResult>
+  </Results>
+</TestRun>
